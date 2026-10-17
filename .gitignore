@@ -1,16 +1,10 @@
-# Eclipse AVR build output
-Debug/
-Release/
-*.elf
-*.hex
-*.lss
-*.map
-*.o
-*.d
+# PlatformIO
+.pio/
+.vscode/
+compile_commands.json
 
-# Eclipse workspace metadata
-.metadata/
-RemoteSystemsTempFiles/
+# Host test build output
+test/host/build/
 
 # Proteus user/backup files
 *.workspace
