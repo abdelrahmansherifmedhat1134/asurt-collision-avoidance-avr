@@ -1,0 +1,18 @@
+# Eclipse AVR build output
+Debug/
+Release/
+*.elf
+*.hex
+*.lss
+*.map
+*.o
+*.d
+
+# Eclipse workspace metadata
+.metadata/
+RemoteSystemsTempFiles/
+
+# Proteus user/backup files
+*.workspace
+*.pdsbak
+Project Backups/

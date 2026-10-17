@@ -1,9 +1,9 @@
 #define F_CPU 16000000UL
 #include <avr/io.h>
 #include <util/delay.h>
-#include "C:\temp\AVR1_actuator\services\uart_rx_service.h"
-#include "C:\temp\AVR1_actuator\drivers\actuator_drivers.h"
-#include "C:\temp\AVR1_actuator\services\collision_service.h"
+#include "../services/uart_rx_service.h"
+#include "../drivers/actuator_drivers.h"
+#include "../services/collision_service.h"
 
 // A simple software counter to manage non-blocking delays
 static uint32_t g_millis_counter = 0;

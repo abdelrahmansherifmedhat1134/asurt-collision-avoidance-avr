@@ -1,8 +1,8 @@
 #define F_CPU 16000000UL
 #include <avr/io.h>
 #include <util/delay.h>
-#include "C:\temp\AVR2_sensor\drivers\hcsr04_driver.h"
-#include "C:\temp\AVR2_sensor\services\uart_tx_service.h"
+#include "../drivers/hcsr04_driver.h"
+#include "../services/uart_tx_service.h"
 
 int main(void) {
     // Define the CPU frequency for the delay functions
